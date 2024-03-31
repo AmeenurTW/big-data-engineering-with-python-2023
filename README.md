@@ -31,7 +31,22 @@ and enter Qur'anic information into the database
         * nltk
 
 # Methodology
-1.Connect Cassandra
+
+1. **Set up Cassandra**
+    * [Install Cassandra](https://phoenixnap.com/kb/install-cassandra-on-windows#ftoc-heading-4)
+    * Open Cassandra
+    * Can open in terminal or cm
+
+![Screenshot 2024-03-31 102709](https://github.com/itsroshan137/Horizontal-Swiper/assets/118091095/8393e2f5-46e4-4d32-ac41-7634ae3a34ec)
+
+ * Open cqlsh to use Cassandra
+
+  ![Screenshot 2024-03-31 103939](https://github.com/itsroshan137/Horizontal-Swiper/assets/118091095/551be829-f113-49e7-9f6b-cd4a78d4f3ab)
+  
+2. **Connect Cassandra with Python**
+    * `pip install cassandra-driver` to use the cluster module
+  
+![Screenshot 2024-03-31 104220](https://github.com/itsroshan137/Horizontal-Swiper/assets/118091095/bec5676f-ae44-4e2d-88e0-2f320709a7ce)
 
 2.creat keysapce
 
